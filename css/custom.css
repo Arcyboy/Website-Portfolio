@@ -11,13 +11,13 @@ body {
 
 main {
     flex: 1 0 auto;
-    background-color: #f8f8f8; /* Light gray background */
+    background-color: #f8f8f8; 
 }
 
 header {
-    background: url('your-image.jpg') no-repeat center; /* Replace 'your-image.jpg' with your actual image path */
+    background: url('your-image.jpg') no-repeat center;
     background-size: cover;
-    color: #ffffff; /* White text */
+    color: #ffffff; 
     text-align: center;
     padding: 20px;
 }
