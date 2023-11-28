@@ -1,63 +1,81 @@
 
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Arial', sans-serif;
 }
 
 main {
     flex: 1 0 auto;
-    background-color: khaki;
+    background-color: #f8f8f8; /* Light gray background */
 }
 
 header {
-    background: no-repeat center;
+    background: url('your-image.jpg') no-repeat center; /* Replace 'your-image.jpg' with your actual image path */
     background-size: cover;
-    color: #3a3a3a;
-    background-color: burlywood;
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 20px;
 }
 
 .color-overlay {
     background-color: rgba(0, 0, 0, 0.4);
     min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .singleCol {
-    max-width: 750px;    
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
 }
 
 footer {
-    background-color:#3a3a3a ;
-    flex-shrink: 0;
+    background-color: #333333; /* Dark gray background */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    text-align: center;
 }
 
-footer a{
-    color: white;
+footer a {
+    color: #ffffff; /* White links */
+    text-decoration: none;
 }
 
-footer a:hover{
-    color: #bfbfbf;
+footer a:hover {
+    color: #bfbfbf; /* Light gray on hover */
 }
 
 @media (max-width: 767.90px){
-    .color-overlay{
+    .color-overlay {
         min-height: 30vh;
     }
 }
 
-.btn-outline-dark{
-    border: #3a3a3a solid 1px;
+.btn-outline-dark {
+    border: #333333 solid 1px; /* Dark gray border */
+    color: #333333; /* Dark gray text */
+    background-color: #ffffff; /* White background */
 }
 
 .btn-outline-dark:hover {
-    background-color:#3a3a3a;
+    background-color: #333333; /* Dark gray on hover */
+    color: #ffffff; /* White text on hover */
 }
+
 .card-body {
-    color: rgb(11, 77, 28);
+    color: #0b4d1c; /* Dark green text */
 }
-.btn-outline-dark{
-    background-color: whitesmoke;
+
+.btn-outline-dark {
+    background-color: #f8f8f8; /* Light gray background */
 }
