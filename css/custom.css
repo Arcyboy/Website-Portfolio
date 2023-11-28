@@ -12,13 +12,13 @@ body {
 
 main {
     flex: 1 0 auto;
-    background-color: #f8f8f8; /* Light gray background */
+    background-color: #f8f8f8;
 }
 
 header {
-    background: url('your-image.jpg') no-repeat center; /* Replace 'your-image.jpg' with your actual image path */
+    
     background-size: cover;
-    color: #ffffff; /* White text */
+    color: #ffffff;
     text-align: center;
     padding: 20px;
 }
@@ -35,24 +35,24 @@ header {
     max-width: 750px;
     margin: auto;
     padding: 20px;
-    background-color: #ffffff; /* White background */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light box shadow */
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #333333; /* Dark gray background */
-    color: #ffffff; /* White text */
+    background-color: #333333;
+    color: #ffffff;
     padding: 10px;
     text-align: center;
 }
 
 footer a {
-    color: #ffffff; /* White links */
+    color: #ffffff;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #bfbfbf; /* Light gray on hover */
+    color: #bfbfbf;
 }
 
 @media (max-width: 767.90px){
@@ -62,20 +62,19 @@ footer a:hover {
 }
 
 .btn-outline-dark {
-    border: #333333 solid 1px; /* Dark gray border */
-    color: #333333; /* Dark gray text */
-    background-color: #ffffff; /* White background */
+    border: #333333 solid 1px; 
+    color: #333333; 
+    background-color: #ffffff; 
 }
 
 .btn-outline-dark:hover {
-    background-color: #333333; /* Dark gray on hover */
-    color: #ffffff; /* White text on hover */
-}
+    background-color: #333333; 
+    color: #ffffff; 
 
 .card-body {
-    color: #0b4d1c; /* Dark green text */
+    color: #0b4d1c; 
 }
 
 .btn-outline-dark {
-    background-color: #f8f8f8; /* Light gray background */
+    background-color: #f8f8f8; 
 }
